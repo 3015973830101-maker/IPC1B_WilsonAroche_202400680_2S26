@@ -1,9 +1,9 @@
-# Manual Técnico
+Manual Técnico
 
-## Proyecto
+Proyecto
 Quetzal Space Defender - Side Scroller
 
-## Tecnología
+Tecnología
 - Java
 - Swing
 - Hilos (`Thread`)
@@ -11,7 +11,7 @@ Quetzal Space Defender - Side Scroller
 - JFreeChart
 - `java.io.*`
 
-## Estructura
+Estructura
 - `Main`: punto de entrada.
 - `AppData`: almacena pilotos e historial con vectores.
 - `Pilot`: modelo de piloto.
@@ -25,10 +25,10 @@ Quetzal Space Defender - Side Scroller
 - `TopScoresFrame`: gráfica de mejores puntajes con JFreeChart.
 - `ReportExporter`: reporte HTML usando `FileWriter` y `PrintWriter`.
 
-## Hilos
+Hilos
 Cada enemigo/objeto móvil se desplaza en su propio hilo y cada proyectil también se ejecuta en un hilo independiente.
 
-## Controles
+Controles
 - W / ↑: arriba
 - S / ↓: abajo
 - A / ←: izquierda
